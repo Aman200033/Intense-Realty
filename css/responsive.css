@@ -174,12 +174,6 @@ header nav li a {
 .offer-services .nav-tabs {
 	margin-bottom: 30px;
 }
-.blog ul li {
-	margin-bottom: 30px;
-}
-.blog ul li img {
-	width: 100%;
-}
 #team .team {
 	margin-bottom: 30px;
 }
@@ -285,29 +279,40 @@ header .search {
 
 /*=============  MEDIA 540px   =============*/
 @media(max-width:540px) {
-#banner {
+footer .container .row .footer-logo{
+	display: none;
+}
+footer .container .footer-content{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.information{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+.contact .contact-info .container .full-info{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+.contact-container{
+    height: 100vh;
+	width: auto;
+}
+.contact-container .contact-left-title hr{
+	width: auto;
 }
 .parthner {
 	padding-top: 0px;
 }
-.blog .b-details a {
-	position: relative;
-	bottom: 0px;
-	left: 0px;
-}
 .parthner .owl-nav {
 	width: 50px;
 	top: -122px;
-}
-.blog .b-details span {
-	margin-top: 0px;
-}
-footer .subcribe input{
-	width:100%;
-}
-footer .subcribe .btn{
-	width:100%;
-	margin-top:10px;
 }
 .pop-project .carousel-indicators li {
 	width: 23.3333%;

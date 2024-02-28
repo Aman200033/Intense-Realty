@@ -1088,9 +1088,19 @@ header .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > 
 	background: url(../images/call-us.jpg) no-repeat;
 	background-size: cover;
 }
+.call-us .container{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 .call-us .overlay {
 	padding: 40px 0;
-	background: rgba(0,0,0,0.8)
+	background: rgba(0,0,0,0.8);
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 .call-us ul {
 	margin-bottom: 0px;
@@ -1552,9 +1562,6 @@ footer {
 	background: #222222 url(../images/map-bottom.png) bottom repeat-x;
 	padding-bottom: 60px;
 }
-footer .container .row div{
-	text-align: left;
-}
 footer h5 {
 	color: #fff;
 	text-transform: uppercase;
@@ -1580,6 +1587,7 @@ footer hr {
 	display: flex;
 	text-align: right;
 	justify-content: right;
+	flex-wrap: wrap;
 	margin-left: 115px;
 }
 footer .loc-info p {
@@ -1739,6 +1747,12 @@ footer button {
 	width: 170px;
 }
 
+#banner .videocontainer{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
 /*=======================================================
 			CONTACT FORM
 ========================================================*/
@@ -1750,8 +1764,14 @@ footer button {
     background-repeat: no-repeat;
 }
 
+.contact-form .container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .contact-container{
     height: 100vh;
+	width: 1100px;
     display: flex;
     align-items: center;
     justify-content: center;
