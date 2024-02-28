@@ -352,6 +352,9 @@ header .header-contact li:nth-child(1) {
 	.time{
 		display:none;
 	}
+	.contact-container .contact-left-title hr,.contact-container .contact-left-title h2{
+		width: auto;
+	}
 	}
 
 /*=============  MEDIA 400px   =============*/
