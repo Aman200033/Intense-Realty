@@ -287,24 +287,16 @@ footer .container .footer-content{
 	text-align: center;
 	justify-content: center;
 }
-.information{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	text-align: center;
-}
-.contact .contact-info .container .full-info{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-	text-align: center;
-}
 .contact-container{
-    height: 100vh;
+    height: auto;
+	margin: 0px;
+	padding: 0px;
 	width: auto;
+	text-align: center;
+	justify-content: center;
+	display:flex;
 }
-.contact-container .contact-left-title hr{
+.contact-container .contact-left-title hr,.contact-container .contact-left-title h2{
 	width: auto;
 }
 .parthner {
@@ -355,6 +347,12 @@ header .header-contact li:nth-child(1) {
 	text-align:center;
 }
 }
+
+@media only screen and (max-width: 500px) {
+	.time{
+		display:none;
+	}
+	}
 
 /*=============  MEDIA 400px   =============*/
 @media(max-width:440px) {
