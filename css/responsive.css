@@ -349,9 +349,6 @@ header .header-contact li:nth-child(1) {
 }
 
 @media only screen and (max-width: 500px) {
-	.time{
-		display:none;
-	}
 	.contact-container .contact-left-title hr,.contact-container .contact-left-title h2{
 		width: auto;
 	}
@@ -359,6 +356,19 @@ header .header-contact li:nth-child(1) {
 
 /*=============  MEDIA 400px   =============*/
 @media(max-width:440px) {
+	.contact-form .container{
+		width:auto;
+	}
+	footer .container{
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		width: auto;
+		margin-right: 90px;
+	}
+	.full-info .time{
+		display: none;
+	}
 .parthner {
 	text-align: center;
 }
