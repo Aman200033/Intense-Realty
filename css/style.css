@@ -1230,21 +1230,8 @@ header .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > 
 	background: url(../images/bg-image.jpg);
 	background-size: contain;
 }
-.services li .icon {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	height: 72px;
-	width: 72px;
-	text-align: center;
-	line-height: 72px;
-	background: #4caf50;
-	z-index: 99;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
+.services .container .sub-service{
+	margin-left: 80px;
 }
 .services li section:before {
 	position: absolute;
@@ -1259,8 +1246,6 @@ header .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > 
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	z-index: 99;
-}
-.services li .heading {
 }
 .services li .ser-hover {
 	position: absolute;
@@ -1298,9 +1283,7 @@ header .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > 
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
-.services li:hover .icon {
-	background: none;
-}
+
 .services li:hover .heading {
 	background: #fff;
 	color: #4caf50;
@@ -1839,10 +1822,6 @@ footer button {
     border-radius: 50px;
     background: #fff;
     cursor: pointer;
-}
-
-.services .row li{
-	margin-left: 70px;
 }
 
 .animation{
